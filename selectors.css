@@ -1,0 +1,55 @@
+
+nav {
+    border: 1px solid goldenrod;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 18px;
+}
+
+.disabled {
+    color: grey;
+}
+
+a + .disabled {
+    color: purple
+}
+
+.active {
+    color: yellow
+}
+
+h4 > div:nth-child(1) {
+    color: red;
+}
+
+.grandparent > div {
+    border: 1px solid; 
+    border-radius: 25px;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+input {
+    font-size: 25px;
+}
+
+.parent > div > div:nth-child(1) {
+    color: red;
+}
+.parent > div > div:nth-child(3) {
+    color: blue;
+}
+
+.parent > div > h4:nth-child(2) {
+    background-color: red;
+}
+
+.parent > div > h4:nth-child(4) {
+    background-color: blue;
+}
